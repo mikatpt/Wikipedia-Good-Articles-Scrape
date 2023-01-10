@@ -1,0 +1,13 @@
+{
+    "type": "module",
+    "dependencies": {
+        "@types/selenium-webdriver": "^4.1.10",
+        "selenium-webdriver": "^4.7.1"
+    },
+    "scripts": {
+        "start": "node category_scrape.js"
+    },
+    "devDependencies": {
+        "typescript": "^4.9.4"
+    }
+}
