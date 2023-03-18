@@ -7,7 +7,7 @@
         "wikijs": "^6.4.0"
     },
     "scripts": {
-        "start": "node category_scrape.js"
+        "start": "node wikijs.js"
     },
     "devDependencies": {
         "typescript": "^4.9.4"
