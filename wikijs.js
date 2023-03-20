@@ -57,21 +57,21 @@ async function throttlePromises(funcs) {
 
 const main = async () => {
     const categories = [
-        // "Agriculture, food, and drink",
-        // "Art and architecture",
-        "Engineering and technology",
-        "Geography and places",
-        "History",
-        "Language and literature",
-        // "Mathematics",
-        "Media and drama",
-        "Music",
-        "Natural sciences",
-        "Philosophy and religion",
-        "Social sciences and society",
-        "Sports and recreation",
-        "Video games",
-        "Warfare",
+        "Agriculture, food, and drink",
+        "Art and architecture",
+        // "Engineering and technology",
+        // "Geography and places",
+        // "History",
+        // "Language and literature",
+        "Mathematics",
+        // "Media and drama",
+        // "Music",
+        // "Natural sciences",
+        // "Philosophy and religion",
+        // "Social sciences and society",
+        // "Sports and recreation",
+        // "Video games",
+        // "Warfare",
     ];
 
     categories.forEach((e, index) => {
@@ -131,16 +131,16 @@ const main = async () => {
 
         const fileName = `./prescraped_articles/${category}`;
 
-        await fs.writeFile(
-            fileName,
-            JSON.stringify(export_object),
-            "utf-8",
-            function (err) {
-                if (err) {
-                    console.log(`error occured with: ${fileName}`);
-                }
-            }
-        );
+        // await fs.writeFile(
+        //     fileName,
+        //     JSON.stringify(export_object),
+        //     "utf-8",
+        //     function (err) {
+        //         if (err) {
+        //             console.log(`error occured with: ${fileName}`);
+        //         }
+        //     }
+        // );
     }
 };
 
